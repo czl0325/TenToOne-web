@@ -1,5 +1,6 @@
 <template>
   <div class="back">
+    <img class="icon" src="../assets/icon_login.png">
     <div class="temp1">
       <div class="input-container">
         <input placeholder="请输入您的手机号">
@@ -26,7 +27,6 @@
   .back
     width 100vw
     min-height 100vh
-    padding-top 40vh
     overflow hidden
     background #E80808 url("../assets/back_login.png") no-repeat
     background-position 0 0
@@ -37,8 +37,14 @@
     flex-direction column
     align-items center
 
+    .icon
+      margin-top 30px
+      width 80%
+      height auto
+
     .temp1
       width 90vw
+      margin-top 20px
       background url("../assets/temp_login1.png") no-repeat
       background-position 0
       background-size cover

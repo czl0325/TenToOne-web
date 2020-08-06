@@ -5,7 +5,7 @@
 #### 源码运行
 
 npm run dev<br>
-根据提示打开http://localhost:8080即可看到网站
+根据提示打开[http://localhost:8080](http://localhost:8080)即可看到网站
 
 #### 打包命令
 
